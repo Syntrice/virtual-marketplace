@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMarketplace", "virtual-marketplace\VirtualMarketplace.csproj", "{CE4B21E6-9FA1-4062-B273-E15AF8E93450}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMarketplace", "VirtualMarketplace\VirtualMarketplace.csproj", "{CE4B21E6-9FA1-4062-B273-E15AF8E93450}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMarketplace.Tests", "VirtualMarketplace.Tests\VirtualMarketplace.Tests.csproj", "{0FEB61F7-FC56-477E-B1FA-F3A8DA5C382C}"
 EndProject
