@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMarketplace", "virtual-marketplace\VirtualMarketplace.csproj", "{CE4B21E6-9FA1-4062-B273-E15AF8E93450}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMarketplace.Tests", "VirtualMarketplace.Tests\VirtualMarketplace.Tests.csproj", "{0FEB61F7-FC56-477E-B1FA-F3A8DA5C382C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5D0726B3-DA30-44ED-BF5F-B6D248EC2DFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0FEB61F7-FC56-477E-B1FA-F3A8DA5C382C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FEB61F7-FC56-477E-B1FA-F3A8DA5C382C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FEB61F7-FC56-477E-B1FA-F3A8DA5C382C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0726B3-DA30-44ED-BF5F-B6D248EC2DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0726B3-DA30-44ED-BF5F-B6D248EC2DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0726B3-DA30-44ED-BF5F-B6D248EC2DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0726B3-DA30-44ED-BF5F-B6D248EC2DFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

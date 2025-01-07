@@ -1,0 +1,6 @@
+services:
+  virtualmarketplace:
+    image: ${DOCKER_REGISTRY-}virtualmarketplace
+    build:
+      context: .
+      dockerfile: virtual-marketplace/Dockerfile
