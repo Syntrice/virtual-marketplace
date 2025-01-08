@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\virtual-marketplace\VirtualMarketplace.csproj" />
+    <ProjectReference Include="..\VirtualMarketplace\VirtualMarketplace.csproj" />
   </ItemGroup>
 
   <ItemGroup>

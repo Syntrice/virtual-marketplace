@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>5d0726b3-da30-44ed-bf5f-b6d248ec2dfe</ProjectGuid>
+    <ProjectGuid>3978362f-f2e3-414f-b4cd-cc80b4b67453</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>virtualmarketplace</DockerServiceName>
@@ -14,6 +14,6 @@
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
     <None Include="docker-compose.yml" />
-    <None Include=".dockerignore" />
+	<None Include="db_password.txt"/>
   </ItemGroup>
 </Project>

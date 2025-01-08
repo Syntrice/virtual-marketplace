@@ -1,0 +1,31 @@
+name: virtualmarketplace
+services:
+    virtualmarketplace:
+        image: ${DOCKER_REGISTRY-}virtualmarketplace
+        build:
+            context: ../VirtualMarketplace
+            dockerfile: Dockerfile
+    mssql:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        hostname: virtualmarketplace
+        environment:
+            - ACCEPT_EULA=Y
+            - MSSQL_SA_PASSWORD_FILE=/run/secrets/db_password
+            - MSSQL_PID=Express
+            - MSSQL_BACKUP_DIR=/var/opt/mssql/backups
+            - MSSQL_LCID=1033
+            - TZ=Etc/UTC
+        ports:
+            - 14330:1433
+        volumes:
+            - ./data/mssql/backups:/var/opt/mssql/backups
+            - ./data/mssql/data:/var/opt/mssql/data
+            - ./data/mssql/log:/var/opt/mssql/log
+        secrets:
+            - db_password
+networks:
+    default:
+        name: virtualmarketplace
+secrets:
+    db_password:
+        file: db_password.txt
